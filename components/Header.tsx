@@ -10,10 +10,10 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-white/10 bg-black/85 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="text-xl font-black tracking-[0.2em] text-white">
-         <img 
+       <img 
   src="/produtos/logo.png" 
   alt="Bivolt Nutrition"
-  style={{ height: "40px" }}
+  style={{ height: "65px", filter: "drop-shadow(0 0 6px rgba(255,215,0,0.5))" }}
 />
         </Link>
         <nav className="hidden items-center gap-6 text-sm text-white/80 md:flex">
