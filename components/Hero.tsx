@@ -52,12 +52,20 @@ export function Hero() {
           </div>
           <div className="relative grid gap-5 md:grid-cols-2">
             <div className="rounded-[2rem] border border-white/10 bg-white/5 p-5 backdrop-blur">
-              <div className="mb-4 h-56 rounded-[1.5rem] border border-[#FFD700]/20 bg-[linear-gradient(180deg,_rgba(255,215,0,0.28)_0%,_rgba(255,215,0,0.08)_24%,_rgba(255,255,255,0.04)_24%,_rgba(0,0,0,0.6)_100%)]" />
+              <img
+  src="/produtos/whey-chocolate.png"
+  alt="Whey Protein Bivolt"
+  className="mb-4 h-56 w-full object-contain"
+/>
               <p className="text-sm uppercase tracking-[0.2em] text-[#FFD700]">Whey Protein</p>
               <h3 className="mt-2 text-xl font-bold text-white">Recuperação e construção</h3>
             </div>
             <div className="mt-8 rounded-[2rem] border border-white/10 bg-white/5 p-5 backdrop-blur md:mt-16">
-              <div className="mb-4 h-56 rounded-[1.5rem] border border-[#FFD700]/20 bg-[linear-gradient(180deg,_rgba(255,215,0,0.28)_0%,_rgba(255,215,0,0.08)_24%,_rgba(255,255,255,0.04)_24%,_rgba(0,0,0,0.6)_100%)]" />
+              <img
+  src="/produtos/creatina.png"
+  alt="Creatina e Pré-Treino Bivolt"
+  className="mb-4 h-56 w-full object-contain"
+/>
               <p className="text-sm uppercase tracking-[0.2em] text-[#FFD700]">Creatina + Pré-treino</p>
               <h3 className="mt-2 text-xl font-bold text-white">Força, foco e constância</h3>
             </div>
