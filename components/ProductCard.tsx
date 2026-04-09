@@ -13,7 +13,17 @@ export function ProductCard({ product }: { product: Product }) {
         <div className="mb-3 inline-flex rounded-full border border-[#FFD700]/50 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[#FFD700]">
           {product.badge}
         </div>
-        <div className="h-48 rounded-2xl border border-white/10 bg-[radial-gradient(circle_at_top,_rgba(255,215,0,0.25),_rgba(0,0,0,0.15)_50%,_rgba(0,0,0,0.95))]" />
+        <img
+  src={
+    product.slug === 'creatina'
+      ? '/produtos/creatina.png'
+      : product.slug === 'pre-treino'
+      ? '/produtos/pretreino.png'
+      : '/produtos/whey-chocolate.png'
+  }
+  alt={product.name}
+  className="h-48 w-full object-contain"
+/>
       </div>
       <div className="space-y-3">
         <p className="text-sm uppercase tracking-[0.2em] text-[#FFD700]">{product.category}</p>
